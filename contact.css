@@ -1,0 +1,181 @@
+h1{
+    color: rgb(17, 142, 250);
+  
+}
+h3{
+    text-align: center;
+    text-decoration: underline;
+    color: rgb(32, 157, 246);
+}
+.main2{
+    padding: 30px;
+}
+.main{
+    background-color: rgb(228, 254, 255);
+    flex: 1;
+}
+.d-block{
+    height: 650px;
+    width: 1450px;
+}
+.contactmain{
+    padding: 100px;
+}
+.topoftopimage{
+    flex-direction: row;
+}
+.hello1{
+    height: 300px;
+    width: 300px;
+    background-color: blue;
+    text-align: center;
+}
+.secondbody{
+background-color:rgb(228, 254, 255);
+padding-top: 150px;
+}
+.card1{
+    padding: 150px;
+}
+.card-img{
+    height: 400px;
+}
+.bounce-box {
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+    font-size: 20px;
+    border-radius: 50%;
+    animation: bounce 1s infinite; /* Apply bounce animation */
+  }
+  
+  /* Define the keyframes for the bounce effect */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0); /* Start and end at the normal position */
+    }
+    50% {
+      transform: translateY(-30px); /* Move up */
+    }
+  }
+  .demo1{
+    margin-left: 650px;
+  }
+
+  .typing-effect {
+    font-size: 2rem;
+    font-family: 'Courier New', Courier, monospace;
+    border-right: 3px solid black;
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s steps(30) 1s forwards, blink 0.75s step-end infinite;
+  }
+  
+  @keyframes typing {
+    100% {
+      width: 100%;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .footer{
+    background-color: rgb(32, 157, 246);
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+  .zoom-in {
+    transform: scale(0); /* Start zoomed out */
+    animation: zoomInEffect 2s forwards;
+  }
+  
+  @keyframes zoomInEffect {
+    to {
+      transform: scale(1); /* End at normal size */
+    }
+  }
+  
+  .pulse-box {
+    width: 100px;
+    height: 100px;
+    background-color: #ff5733;
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  /* Apply a bounce effect to the image */
+.bounce {
+    animation: bounce 1s ease infinite; /* Continuous bounce */
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0); /* Start at normal position */
+    }
+    30% {
+        transform: translateY(-20px); /* Move up */
+    }
+    50% {
+        transform: translateY(0); /* Move back down */
+    }
+    70% {
+        transform: translateY(-10px); /* Move up again */
+    }
+    100% {
+        transform: translateY(0); /* End at normal position */
+    }
+}
+/* Apply zoom effect */
+.zoom-effect {
+    transition: transform 0.3s ease-in-out; /* Smooth transition */
+}
+
+.zoom-effect:hover {
+    transform: scale(1.2); /* Zoom in by 20% */
+}
+
+
+/* Apply a scaling and rotating effect on hover */
+.hover-effect {
+    transition: transform 0.3s ease-in-out; /* Smooth transition for transform */
+}
+
+.hover-effect:hover {
+    transform: scale(1.1) rotate(90deg); /* Scale up and rotate the image */
+}
+
+
+/* Apply a slide-in effect from the left */
+.slide-in {
+    transform: translateX(-100%); /* Start off-screen on the left */
+    animation: slideIn 2s ease-out forwards; /* Slide in over 2 seconds */
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%); /* Off-screen */
+    }
+    100% {
+        transform: translateX(0); /* On-screen */
+    }
+}
